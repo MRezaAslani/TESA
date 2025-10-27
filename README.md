@@ -1,4 +1,4 @@
-# TESA-MATLAB
+# TESA
 
 **Time-domain Enhanced Spectrogram Alignment (TESA)** is a novel optimization-based framework that improves phase estimation and signal reconstruction from spectrogram magnitudes. TESA introduces an **adaptive moment estimation optimizer** that iteratively adjusts temporal or spatial samples to align the input spectrogram with the target magnitude distribution.
 
@@ -44,12 +44,14 @@ Authors: A. Nouri, M. R. Aslani, et al.
 Or use the BibTeX entry:
 
 ```bibtex
-@misc{tesa_matlab_2025,
-  author       = {M. R. Aslani},
-  title        = {Time-domain Enhanced Spectrogram Alignment (TESA): MATLAB Implementation},
-  year         = {2025},
+@software{aslani_tesa_2025,
+  author       = {Aslani, Mohammad Reza},
+  title        = {TESA: Time-domain Enhanced Spectrogram Alignment},
+  month        = Oct,
+  year         = 2025,
   publisher    = {GitHub},
-  howpublished = {\url{https://github.com/MRezaAslani/TESA}},
+  url          = {https://github.com/MRezaAslani/TESA},
+  note         = {MATLAB implementation under MIT License}
 }
 ```
 
